@@ -1,12 +1,12 @@
 body {
     font-family: Verdana, sans-serif;
     background-color: rgb(15, 15, 15);
-    color: rgb(255, 255, 255); /* To make the text visible against the black background */
+    color: rgb(255, 255, 255);
     margin: 0;
     width: 100%
 }
 
-/* HEADER */
+/* FORMATTING HEADER */
 .nav-header{
     position: fixed;
     display: flex;
@@ -47,17 +47,15 @@ body {
     padding: 15px;
     font-size: 1rem;
 }
+/* END OF HEADER FORMATTING*/
 
-.nav-overlay {
-    display: none;
-}
-
-/* PAGE CONTENT */
+/* FORMATTING MAIN CONTENT */
 .main-content {
     margin-top: 25px;
     margin: 0 25%;
     font-size: 1.5em;
 }
+/* END OF MAIN CONTENT FORMATTING */
 
 
 /* FOOTER */
@@ -79,11 +77,13 @@ body {
     color: #ffffff;
 }
 
+/*HANDLER FOR SMALLER SCREENS*/
+
 @media only screen and (max-width: 768px) {
     body {
         font-size: 14px;
     }
-
+    /*HANDLES DROP DOWN NAVIGATION FOR SMALLER SCREENS*/
     .menu-icon {
         display: grid;
     }
@@ -100,10 +100,6 @@ body {
     .nav-links li {
         text-align: center;
         margin: 10px 0;
-    }
-
-    .hamburger {
-        display: flex;
     }
 
     .nav-links.active {
