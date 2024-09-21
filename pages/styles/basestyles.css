@@ -51,8 +51,7 @@ body {
 
 /* FORMATTING MAIN CONTENT */
 .main-content {
-    margin-top: 25px;
-    margin: 0 25%;
+    margin: 50px 25%;
     font-size: 1.5em;
 }
 /* END OF MAIN CONTENT FORMATTING */
@@ -86,6 +85,11 @@ body {
     /*HANDLES DROP DOWN NAVIGATION FOR SMALLER SCREENS*/
     .menu-icon {
         display: grid;
+    }
+
+    .main-content {
+        margin: 50px 10%;
+        font-size: 1.5em;
     }
 
     .nav-links {

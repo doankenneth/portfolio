@@ -1,0 +1,24 @@
+.welcome-header {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #797979;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.nav-button {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.nav-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
