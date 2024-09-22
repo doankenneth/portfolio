@@ -69,25 +69,6 @@ body {
 /* END OF MAIN CONTENT FORMATTING */
 
 
-/* FOOTER */
-.footer{
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    margin-top: 150px;
-    text-align: center;
-} 
-
-.footer-text {
-    display: flex;
-    width: 80%;        
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #ffffff;
-}
-
 /*HANDLER FOR SMALLER SCREENS*/
 
 @media only screen and (max-width: 768px) {

@@ -37,4 +37,3 @@ function showSlides1(n) {
       }
       slides[slideIndex2-1].style.display = "block";
   }
-  

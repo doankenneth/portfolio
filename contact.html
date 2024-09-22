@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styles/basestyles.css">
-    <link rel="stylesheet" href="styles/aboutstyles.css">
+    <link rel="stylesheet" href="styles/contact_styles.css">
 </head>
 <body>
     <div class="nav-header">
@@ -21,18 +21,26 @@
 
     
     <div class="page-header">
-        <div style="font-size: 5rem;">ABOUT</div>
+        <div style="font-size: 5rem;">CONTACT ME</div>
     </div>
 
     <div class="main-content">
-
-    </div>
-
-    <div class="footer">
-        <div class="footer-text">
-            <li><a href="contact.html">Contact Me</a></li>
+        <div class = "contact-section">
+            <h3>Need to Contact Me?</h3>
+            <p>You can find me at <span onclick="openEmail()">doankenneth&#64;gmail.com</span></p>
+            <p>But you can just click below to open a new email directed to me</p>
+            <button class="email-button" onclick="openEmail()">Open Email</button>
+        </div>
+        <div class = "joke-section">
+            <p>Alternatively, you can click this instead:</p>
+            <button class="email-button" onclick="clickerCounterUp()">Do Nothing</button>
+            <p>It doesn't do anything, but tell you what:</p>
+            <div id="counter" style="font-size: 3rem;"></div>
+            <p>I'll keep track of how many times you click it</p>
+            <p>Have fun!</p>
         </div>
     </div>
 </body>
 <script src="scripts/basescript.js"></script>
+<script src="scripts/contact_script.js"></script>
 </html>
