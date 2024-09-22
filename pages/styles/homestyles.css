@@ -1,6 +1,5 @@
-.welcome-header {
+.page-header {
     display: flex;
-    margin-top: 40px;
     width: 100%;
     background-color: #797979;
     text-align: center;
@@ -21,4 +20,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}

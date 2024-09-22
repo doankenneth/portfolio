@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    font-size: 3rem;
+}
+.about-me-title {
+    margin: 0;
+}
+.about-container{
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container{
+        margin: 0 0;
+    }
+    
+
+}

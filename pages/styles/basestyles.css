@@ -3,7 +3,8 @@ body {
     background-color: rgb(15, 15, 15);
     color: rgb(255, 255, 255);
     margin: 0;
-    width: 100%
+    width: 100%;
+    font-size: 12px;
 }
 
 /* FORMATTING HEADER */
@@ -51,7 +52,7 @@ body {
 
 /* FORMATTING MAIN CONTENT */
 .main-content {
-    margin: 50px 25%;
+    margin: 150px 15%;
     font-size: 1.5em;
 }
 /* END OF MAIN CONTENT FORMATTING */
@@ -79,9 +80,6 @@ body {
 /*HANDLER FOR SMALLER SCREENS*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
     /*HANDLES DROP DOWN NAVIGATION FOR SMALLER SCREENS*/
     .menu-icon {
         display: grid;
