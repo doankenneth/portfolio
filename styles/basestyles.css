@@ -61,6 +61,11 @@ body {
     height: 250px;
 }
 
+.page-header-text {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
 /* FORMATTING MAIN CONTENT */
 .main-content {
     margin: 50px 15%;
