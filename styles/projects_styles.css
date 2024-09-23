@@ -1,3 +1,4 @@
+/* RESIZES HEADER TEXT */
 h2 {
     font-size: 3rem;
 }
@@ -7,13 +8,17 @@ h3 {
 h4 {
     font-size: 2rem;
 }
+
+
+/* HANDLES THE INTRODUCTION TEXT*/
 .intro-title {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-/* Slideshow container */
+
+/* FORMATTING FOR THE IMAGE SLIDESHOW */
 .slideshow-container {
     display: flex;
     flex-direction: row;
@@ -21,8 +26,9 @@ h4 {
     align-items: center;
     justify-content: center;
 }
-  
-  /* Hide the images by default */
+
+
+/* Hide the images by default */
 .mySlides1 {
     display: none;
 }
@@ -36,7 +42,8 @@ h4 {
     gap: 667.5px;
     margin-bottom: 30px;
 }
-  /* Next & previous buttons */
+
+/* Next & previous buttons */
 .slideshow-button {
     text-align: center;
     padding: 15px;
@@ -47,8 +54,10 @@ h4 {
     user-select: none;
     transition: 1.5s ease;
 }
+/* END OF IMAGE SLIDESHOW FORMATTING */
 
-/*Project View Container*/
+
+/* FORMATTING OF PROJECT VIEW CONTAINER */
 .project-left, .project-right {
     display: flex;
     flex-direction: row;
@@ -62,7 +71,7 @@ h4 {
     margin: 0 20px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Adds a Black Background when button hovered */
 .slideshow-button:hover {
     background-color: rgba(0,0,0,0.8);
 }
@@ -89,6 +98,8 @@ h4 {
     to {opacity: 1}
 }
 
+
+/* END OF PROJECT VIEW CONTAINER FORMATTING */
 @media only screen and (max-width: 1200px) {
     .project-left {
         display: flex;
@@ -100,9 +111,7 @@ h4 {
     }
     .project-container{
         margin: 0 0;
-    }
-    
-
+    } 
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,11 +119,8 @@ h4 {
         width: 350px;
         height: 210px;
     }
-
     .button-container {
         gap: 280px;
     }
-    
-
 }
 

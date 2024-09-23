@@ -1,3 +1,4 @@
+/* READJUST MAIN CONTENT FOR BETTER MARGINS */
 .main-content {
     margin: 50px 25%;
     font-size: 1.5em;
@@ -6,12 +7,15 @@
     flex-direction: column;
 }
 
+/* ADJUST TEXT SIZE OF PAGE */
 h3 {
     font-size: 3rem;
 }
 p {
     font-size: 1.5rem;
 }
+
+/* ALIGN TEXT OF BOTH SECTIONS */
 .contact-section {
     text-align: center;
 }

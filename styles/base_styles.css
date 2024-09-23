@@ -1,11 +1,12 @@
 body {
     font-family: Verdana, sans-serif;
-    background-color: rgb(5, 0, 10);
+    background-color: rgb(10, 0, 20);
     color: rgb(255, 255, 255);
     margin: 0;
     width: 100%;
     font-size: 12px;
 }
+
 
 /* FORMATTING HEADER */
 .nav-header{
@@ -17,7 +18,7 @@ body {
     top: 0;
     width: 100%;
     height: 50px;
-    background-color: #1a0020;
+    background-color: rgb(30, 0, 60);
     z-index: 1000;
     white-space: nowrap;
 }
@@ -50,11 +51,13 @@ body {
 }
 /* END OF HEADER FORMATTING*/
 
+
+/* FORMATTING TEXT HEADER*/
 .page-header {
     margin-top: 50px;
     display: flex;
     width: 100%;
-    background-color: #2f1a3d;
+    background-color: rgb(40, 10, 75);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -65,6 +68,8 @@ body {
     font-size: 5rem;
     font-weight: bold;
 }
+/* END OF TEXT HEADER FORMATTING*/
+
 
 /* FORMATTING MAIN CONTENT */
 .main-content {
@@ -74,8 +79,7 @@ body {
 /* END OF MAIN CONTENT FORMATTING */
 
 
-/*HANDLER FOR SMALLER SCREENS*/
-
+/* HANDLER FOR SMALLER SCREENS */
 @media only screen and (max-width: 1200px) {
     .main-content {
         margin: 50px 5%;
