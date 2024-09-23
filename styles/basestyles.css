@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, sans-serif;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(5, 0, 10);
     color: rgb(255, 255, 255);
     margin: 0;
     width: 100%;
@@ -17,7 +17,7 @@ body {
     top: 0;
     width: 100%;
     height: 50px;
-    background-color: #333;
+    background-color: #1a0020;
     z-index: 1000;
     white-space: nowrap;
 }
@@ -54,7 +54,7 @@ body {
     margin-top: 50px;
     display: flex;
     width: 100%;
-    background-color: #797979;
+    background-color: #2f1a3d;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -70,6 +70,14 @@ body {
 
 
 /*HANDLER FOR SMALLER SCREENS*/
+
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        margin: 50px 5%;
+        font-size: 1.5em;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
     /*HANDLES DROP DOWN NAVIGATION FOR SMALLER SCREENS*/
