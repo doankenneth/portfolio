@@ -19,3 +19,7 @@
 hr {
     margin: 100px 0;
 }
+
+.nav-image {
+    fill: cover;
+}

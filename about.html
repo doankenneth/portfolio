@@ -28,23 +28,40 @@
             <img src="images/placeholder.png" width="500" height="500">
             <div class = "about-container">
                 <h2 class="about-me-title">ABOUT ME</h2>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dui semper nisl aliquet magna nisi praesent gravida turpis. Neque felis diam eleifend, luctus nisi consequat sit? Nisl mi euismod nascetur proin nibh rutrum porta. Ipsum fringilla nisl montes tempus fringilla tempus. Augue luctus porta id diam morbi elementum bibendum erat. Ornare nascetur a feugiat leo porttitor inceptos hendrerit habitasse. Neque natoque vivamus lobortis semper tincidunt habitant eros vehicula. Lectus dictum amet volutpat fringilla tincidunt.</p>
+                <p>I'm Kenneth Doan, an aspiring Game Developer, Video Editor, and Local Funny Man. Video games have always had a special place in my heart. I've been playing video games for as long as I remember and one day I suddenly decided "Hey, what if I did that?" Since then, I've been designing all sorts of games. My goal is that one day, somebody out there will play my game and cherish the memory forever, just like games did for me.</p>
             </div>
             
         </div>
         <div class="FAQ">
             <h2>FAQ</h2>
-            <h4>Q: This is a question</h4>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dui semper nisl aliquet magna nisi praesent gravida turpis. Neque felis diam eleifend, luctus nisi consequat sit? Nisl mi euismod nascetur proin nibh rutrum porta.</p>
-            <h4>Q: This is a question</h4>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dui semper nisl aliquet magna nisi praesent gravida turpis. Neque felis diam eleifend, luctus nisi consequat sit? Nisl mi euismod nascetur proin nibh rutrum porta.</p>
-            <h4>Q: This is a question</h4>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dui semper nisl aliquet magna nisi praesent gravida turpis. Neque felis diam eleifend, luctus nisi consequat sit? Nisl mi euismod nascetur proin nibh rutrum porta.</p>
-            <h4>Q: This is a question</h4>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Dui semper nisl aliquet magna nisi praesent gravida turpis. Neque felis diam eleifend, luctus nisi consequat sit? Nisl mi euismod nascetur proin nibh rutrum porta.</p>
+            <h4 class="question" onclick="toggleAnswer(1)"><span id="answericon1">+</span> Q: Who are you?</h4>
+            <div class="answer" id="answer1">
+                ...Isn't this right below the "About Me" section? You would've already read-<br><br>
+                You know what? Never mind.<br><br>
+                I'm Kenneth Doan. I'm from Georgia currently studying Computational Media at the Georgia Institute of Technology, with a focus of Video Games and Media.
+            </div>
+            <h4 class="question" onclick="toggleAnswer(2)"><span id="answericon2">+</span> Q: Where did you learn to design games/edit videos?</h4>
+            <div class="answer" id="answer2">
+                Uhhhh... YouTube University? I'm mainly self-taught. I learned a long time ago the best way to learn to do something is to try, fail, repeat. So that's what I did. I'm currently studying game design now, but for the most part, everything I do is from years of screwing up and trying again.
+            </div>
+            <h4 class="question" onclick="toggleAnswer(3)"><span id="answericon3">+</span> Q: What types of games do you make</h4>
+            <div class="answer" id="answer3">
+                Well, a little bit of everything. I don't really specialize in one type of game. Instead, I think of something fun to try out. Maybe it's a mechanic from another game I wanted to expand on. Maybe a fusion between a bunch of different idea. I like building games around one fun mechanic and see how to best build around it.
+            </div>
+            <h4 class="question" onclick="toggleAnswer(4)"><span id="answericon4">+</span> Q: Video Editing? Why both? Why not just game development?</h4>
+            <div class="answer" id="answer4">
+                I love creating things and entertaining people. Whether it be through a thrilling game or a funny video, I love making people laugh and have fun. <br><br>
+                If you want to know why <em>specifically</em> video editing, I picked it up as a hobby one day it just stuck around.
+            </div>
+            <h4 class="question" onclick="toggleAnswer(5)"><span id="answericon3">+</span> Q: What games do you play?</h4>
+            <div class="answer" id="answer5">
+                Now <em>that's</em> how you get to know me.<br><br>
+                I play all sorts of games but I usually stick around the FPS, JRPG, and Stealth genre. Some of my personal favorites are Destiny 2, Persona 5, and Dishonored.
+            </div>
         </div>
     </div>
 
 </body>
 <script src="scripts/basescript.js"></script>
+<script src="scripts/about_script.js"></script>
 </html>
