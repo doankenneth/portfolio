@@ -1,7 +1,4 @@
 /* RESIZES HEADER TEXT */
-h2 {
-    font-size: 3rem;
-}
 h3 {
     font-size: 2.5rem;
 }
@@ -58,6 +55,10 @@ h4 {
 
 
 /* FORMATTING OF PROJECT VIEW CONTAINER */
+.section-title {
+    width: 100%;
+    font-size: 4rem;
+}
 .project-left, .project-right {
     display: flex;
     flex-direction: row;
