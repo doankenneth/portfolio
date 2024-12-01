@@ -7,6 +7,7 @@
 }
 
 .nav-title {
+    z-index: 1;
     position: absolute;
     font-size: 2rem;
     top: 50%;
@@ -21,5 +22,14 @@ hr {
 }
 
 .nav-image {
+    border-radius: 10px;
+    opacity: .5;
     object-fit: cover;
+    object-position: 75% 50%;
+    transition: opacity 1s; /* Smooth hover effect */
+}
+.nav-image:hover {
+    cursor: pointer;
+    opacity: 1;
+    
 }
