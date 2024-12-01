@@ -25,7 +25,6 @@ hr {
     border-radius: 10px;
     opacity: .5;
     object-fit: cover;
-    object-position: 75% 50%;
     transition: opacity 1s; /* Smooth hover effect */
 }
 .nav-image:hover {
